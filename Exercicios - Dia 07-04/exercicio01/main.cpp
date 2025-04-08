@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -20,6 +21,7 @@ int main()
 
     switch (opcao) {
         case 1:
+            cout << fixed << setprecision(2);
             cout << "Você escolheu a opção 1." << endl;
             cout << endl;
             cout << endl;
@@ -55,6 +57,7 @@ int main()
             cout << "O valor do montante final é de: " << montante << " reais";
             break;
         case 2:
+            cout << fixed << setprecision(2);
             cout << "Você escolheu a opção 2." << endl;
             cout << endl;
             cout << endl;
@@ -90,6 +93,7 @@ int main()
             cout << "O valor do montante final é de: " << montante << " reais";
             break;
         case 3:
+            cout << fixed << setprecision(2);
             cout << "Você escolheu a opção 3." << endl;
             cout << endl;
             cout << endl;
